@@ -1,0 +1,6 @@
+interface:
+  display_name: "Product Opportunity Evaluation"
+  short_description: "Choose whether to reuse, validate, or build"
+  default_prompt: "Use $product-opportunity-evaluation to assess this researched idea and recommend a next step."
+policy:
+  allow_implicit_invocation: true

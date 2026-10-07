@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ecosystem Scan"
+  short_description: "Find and verify existing product alternatives"
+  default_prompt: "Use $ecosystem-scan to research existing solutions for this bounded product idea."
+policy:
+  allow_implicit_invocation: true

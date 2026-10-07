@@ -1,0 +1,6 @@
+interface:
+  display_name: "Product Definition"
+  short_description: "Define a bounded MVP and technical handoff"
+  default_prompt: "Use $product-definition to turn this selected opportunity into a scoped MVP and product specification."
+policy:
+  allow_implicit_invocation: true

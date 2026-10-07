@@ -1,0 +1,16 @@
+# Design provenance
+
+Reviewed 2026-10-06 (Asia/Shanghai). Repository HEAD observed during review: `8607e3b077817f89bf4a9b623246219734ac3be0`; linked `main` pages may change. Source project: [phuryn/pm-skills](https://github.com/phuryn/pm-skills). These are design inspirations, not runtime dependencies or copied Skill bodies.
+
+| Source | Borrowed idea | Adaptation / boundary |
+|---|---|---|
+| [competitor-analysis](https://github.com/phuryn/pm-skills/blob/main/pm-market-research/skills/competitor-analysis/SKILL.md) | Compare positioning and alternatives to identify differentiation | Separate discovery from comparison; no fixed five competitors or invented market share; add artifact-level verification and explicit similarity arithmetic |
+| [identify-assumptions-new](https://github.com/phuryn/pm-skills/blob/main/pm-product-discovery/skills/identify-assumptions-new/SKILL.md) | Evaluate new-product risks across multiple lenses | Use only material risks in six opportunity dimensions, with specific installation/platform/distribution assumptions |
+| [brainstorm-experiments-new](https://github.com/phuryn/pm-skills/blob/main/pm-product-discovery/skills/brainstorm-experiments-new/SKILL.md) | Cheap experiments and measurable behavioral commitment | Add failure/inconclusive thresholds, observation windows and explicit decision consequences; no launch authorization |
+| [strategy-red-team](https://github.com/phuryn/pm-skills/blob/main/pm-execution/skills/strategy-red-team/SKILL.md) | Challenge load-bearing assumptions fairly and prioritize cheap tests | Integrate disconfirmation into opportunity evaluation, preserving sound claims and separating unknowns from failures |
+| [create-prd](https://github.com/phuryn/pm-skills/blob/main/pm-execution/skills/create-prd/SKILL.md) | Evidence and objective precede solution/release requirements | User-requested 18-section Spec, runtime tools/contracts, fallback and acceptance map; no automatic PRD before clarification |
+| [/discover](https://github.com/phuryn/pm-skills/blob/main/pm-product-discovery/commands/discover.md) | Compose Skills with checkpoints into a saved discovery document | An orchestration Skill with search-first gates, explicit decisions and resumable artifacts, rather than a command registration |
+
+The upstream [LICENSE](https://github.com/phuryn/pm-skills/blob/main/LICENSE) inspected on this date is MIT, copyright 2026 Pawel Huryn. If later copying/adapting substantial upstream text/code, retain its copyright and permission notice and check any additional dependencies. This package rewrites instructions from the user's requirements and records conceptual inspiration. This release uses MIT for its original content; the publisher is JaneHuang1833.
+
+Packaging reference: [OpenAI — Package your plugin](https://developers.openai.com/plugins/build/plugins), [Agent Plugins manifest schema](https://agent-plugins.org/schemas/1.0.0/plugin.schema.json). Portable `plugin.json` identity and fixed `skills/` path are used. OpenAI presentation is in `extensions.com.openai`. Packaging documentation was rechecked on 2026-10-07. GitHub repository distribution and universal directory submission are separate; host installation remains a separately recorded verification.

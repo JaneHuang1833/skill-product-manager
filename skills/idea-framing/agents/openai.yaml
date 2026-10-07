@@ -1,0 +1,6 @@
+interface:
+  display_name: "Idea Framing"
+  short_description: "Turn an idea into a clear user and job"
+  default_prompt: "Use $idea-framing to clarify the user, situation, job, and product form for this idea."
+policy:
+  allow_implicit_invocation: true

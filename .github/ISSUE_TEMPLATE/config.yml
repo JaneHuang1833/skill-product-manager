@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Installation and usage
+    url: https://github.com/JaneHuang1833/skill-product-manager/blob/main/docs/installation.md
+    about: Check setup and troubleshooting first.
+  - name: Security reporting
+    url: https://github.com/JaneHuang1833/skill-product-manager/blob/main/SECURITY.md
+    about: Report vulnerabilities privately; do not post credentials.

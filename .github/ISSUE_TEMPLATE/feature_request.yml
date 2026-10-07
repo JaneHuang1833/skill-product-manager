@@ -1,0 +1,23 @@
+name: Workflow improvement
+description: Propose a change grounded in a user's job.
+title: "[Idea]: "
+body:
+  - type: textarea
+    id: job
+    attributes:
+      label: User, situation and job
+      description: Who needs this, when, and what is hard with the current workflow?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and current alternative
+      description: A recent example or reproducible gap; distinguish observations from assumptions.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome and bounded proposal
+      description: How would success be observed? What should stay out of scope?

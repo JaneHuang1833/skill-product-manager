@@ -1,0 +1,48 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "skill-product-manager",
+  "version": "0.2.0",
+  "description": "Research existing AI products, evaluate whether to reuse, validate or build, and define an evidence-backed MVP and technical handoff.",
+  "author": {
+    "name": "JaneHuang1833",
+    "url": "https://github.com/JaneHuang1833"
+  },
+  "homepage": "https://github.com/JaneHuang1833/skill-product-manager",
+  "repository": "https://github.com/JaneHuang1833/skill-product-manager",
+  "license": "MIT",
+  "keywords": [
+    "product-management",
+    "product-discovery",
+    "skills",
+    "plugins",
+    "mcp",
+    "agents",
+    "validation"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Skill Product Manager",
+        "shortDescription": "From product idea to an evidence-backed decision",
+        "longDescription": "Seven reusable skills for framing ideas, inspecting existing solutions, comparing alternatives, evaluating opportunities, designing validation, and defining a bounded product specification.",
+        "defaultPrompt": [
+          "Use $discover-skill-product to research my idea, evaluate its opportunity, and recommend what to do next."
+        ],
+        "websiteURL": "https://github.com/JaneHuang1833/skill-product-manager",
+        "privacyPolicyURL": "https://github.com/JaneHuang1833/skill-product-manager/blob/main/PRIVACY.md",
+        "developerName": "JaneHuang1833",
+        "category": "Productivity",
+        "capabilities": [
+          "Frame product ideas",
+          "Research existing solutions",
+          "Evaluate opportunities",
+          "Define an MVP"
+        ],
+        "logo": "./assets/icon.svg",
+        "composerIcon": "./assets/icon.svg",
+        "brandColor": "#312E81",
+        "supportURL": "https://github.com/JaneHuang1833/skill-product-manager/issues"
+      }
+    }
+  }
+}

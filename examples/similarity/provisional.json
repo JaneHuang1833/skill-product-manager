@@ -1,0 +1,42 @@
+{
+  "problem_jtbd": {
+    "score": 3,
+    "rationale": "Same bounded job in a synthetic comparison",
+    "source_ids": [
+      "S-fixture"
+    ]
+  },
+  "user_context": {
+    "score": 1.5,
+    "rationale": "Same fictional role and trigger",
+    "source_ids": [
+      "S-fixture"
+    ]
+  },
+  "workflow": {
+    "score": 2,
+    "rationale": "Same documented fixture sequence",
+    "source_ids": [
+      "S-fixture"
+    ]
+  },
+  "capabilities_tools": {
+    "score": 2,
+    "rationale": "Same necessary local access in the fixture",
+    "source_ids": [
+      "S-fixture"
+    ]
+  },
+  "output_ux": {
+    "score": 1,
+    "rationale": "Same reviewable artifact contract",
+    "source_ids": [
+      "S-fixture"
+    ]
+  },
+  "distribution_form": {
+    "score": null,
+    "rationale": "Distribution form is undocumented; do not impute it",
+    "source_ids": []
+  }
+}

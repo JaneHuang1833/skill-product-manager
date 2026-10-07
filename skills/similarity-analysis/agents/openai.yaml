@@ -1,0 +1,6 @@
+interface:
+  display_name: "Similarity Analysis"
+  short_description: "Compare verified alternatives with evidence"
+  default_prompt: "Use $similarity-analysis to compare these inspected candidates against my idea."
+policy:
+  allow_implicit_invocation: true

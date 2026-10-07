@@ -1,0 +1,6 @@
+interface:
+  display_name: "Discover Skill Product"
+  short_description: "Research an idea and choose what to build"
+  default_prompt: "Use $discover-skill-product to investigate whether this plugin idea exists, whether it is worth pursuing, and what it should become."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,70 @@
+{
+  "artifact_id": "example-brief",
+  "artifact_type": "idea_brief",
+  "version": 1,
+  "updated_at": "2026-10-07T12:00:00+08:00",
+  "status": "draft",
+  "inputs": [],
+  "claims": [
+    {
+      "id": "C1",
+      "statement": "The fictional scenario concerns owner-confirmed action drafts from supplied transcripts.",
+      "kind": "Fact",
+      "verification": "Verified",
+      "source_ids": [
+        "S-fixture"
+      ],
+      "rationale": "Verified only against the local fixture text, not a real user or public market."
+    }
+  ],
+  "unknowns": [
+    {
+      "id": "Q1",
+      "question": "Does it reduce correction effort in actual use?",
+      "impact": "Determines personal workflow value",
+      "next_action": "Run a permitted baseline comparison later."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S-fixture",
+      "url": null,
+      "title": "Local synthetic scenario and mock definitions: source-material.md",
+      "accessed_at": "2026-10-07",
+      "source_type": "local",
+      "supports": [
+        "C1"
+      ],
+      "access_status": "inspected",
+      "locator": "source-material.md",
+      "synthetic": true
+    }
+  ],
+  "target_user": "Project lead in a synthetic small-project scenario",
+  "situation": "After receiving a voluntarily supplied transcript",
+  "problem_jtbd": "Produce reviewable actions with missing ownership/date kept explicit",
+  "current_alternative": "Manual extraction in the fictional scenario",
+  "expected_outcome": "Lower correction effort without false ownership confidence",
+  "core_workflow": [
+    "Read supplied transcript",
+    "Draft actions",
+    "Flag unknowns",
+    "Lead confirms",
+    "Save accepted list"
+  ],
+  "required_capabilities": [
+    "Source reading",
+    "Structured extraction",
+    "Local draft"
+  ],
+  "constraints": [
+    "No assumed recording or messaging permissions",
+    "Offline synthetic evidence"
+  ],
+  "proposed_form": "Skill",
+  "form_rationale": "Bounded extraction and review method; external access may not be necessary",
+  "confidence": {
+    "level": "low",
+    "rationale": "Synthetic demonstration only; no demand or live feasibility evidence."
+  }
+}

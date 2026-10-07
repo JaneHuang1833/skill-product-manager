@@ -1,0 +1,20 @@
+{
+  "name": "skill-product-manager",
+  "interface": {
+    "displayName": "Skill Product Manager"
+  },
+  "plugins": [
+    {
+      "name": "skill-product-manager",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

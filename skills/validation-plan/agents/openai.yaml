@@ -1,0 +1,6 @@
+interface:
+  display_name: "Validation Plan"
+  short_description: "Design the cheapest test of a critical assumption"
+  default_prompt: "Use $validation-plan to design a low-cost test with success, failure, and stopping criteria."
+policy:
+  allow_implicit_invocation: true

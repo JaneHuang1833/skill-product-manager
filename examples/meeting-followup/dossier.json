@@ -1,0 +1,87 @@
+{
+  "artifact_id": "example-dossier",
+  "artifact_type": "discovery_dossier",
+  "version": 1,
+  "updated_at": "2026-10-07T12:00:00+08:00",
+  "status": "draft",
+  "inputs": [
+    {
+      "artifact_id": "example-brief",
+      "version": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "statement": "The fictional scenario concerns owner-confirmed action drafts from supplied transcripts.",
+      "kind": "Fact",
+      "verification": "Verified",
+      "source_ids": [
+        "S-fixture"
+      ],
+      "rationale": "Verified only against the local fixture text, not a real user or public market."
+    }
+  ],
+  "unknowns": [
+    {
+      "id": "Q1",
+      "question": "Does it reduce correction effort in actual use?",
+      "impact": "Determines personal workflow value",
+      "next_action": "Run a permitted baseline comparison later."
+    }
+  ],
+  "sources": [
+    {
+      "id": "S-fixture",
+      "url": null,
+      "title": "Local synthetic scenario and mock definitions: source-material.md",
+      "accessed_at": "2026-10-07",
+      "source_type": "local",
+      "supports": [
+        "C1"
+      ],
+      "access_status": "inspected",
+      "locator": "source-material.md",
+      "synthetic": true
+    }
+  ],
+  "stage": "Decide",
+  "artifact_refs": [
+    {
+      "artifact_id": "example-brief",
+      "version": 1,
+      "path": "brief.json"
+    },
+    {
+      "artifact_id": "example-validation",
+      "version": 1,
+      "path": "validation-plan.md"
+    }
+  ],
+  "recommendation": {
+    "choice": "VALIDATE FIRST",
+    "rationale": "Synthetic demonstration: actual workflow value is unknown.",
+    "confidence": {
+      "level": "low",
+      "rationale": "No real user or market evidence"
+    },
+    "biggest_risk": "Correction effort cancels draft value",
+    "strongest_evidence": "Only the local fictional scenario",
+    "next_step": "Collect actual permitted baseline behavior before automation",
+    "user_override": null
+  },
+  "user_choice": "Unknown",
+  "knowns": [
+    "Fixture-defined job only"
+  ],
+  "critical_unknowns": [
+    "Real demand",
+    "Actual tools",
+    "Permission to reuse a real product"
+  ],
+  "next_action": "Collect actual permitted baseline behavior before automation",
+  "pending_questions": [],
+  "invalidated_refs": [],
+  "synthetic": true,
+  "scope_status": "offline"
+}
